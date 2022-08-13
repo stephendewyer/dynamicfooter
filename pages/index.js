@@ -52,7 +52,7 @@ export default function Index() {
               <h2 className={styles.heading_02} >
                 code:
               </h2>
-              <Link href="https://github.com/stephendewyer/animatedtabpanels/" passHref={true} aria-label="link to animated tab panels on GitHub">
+              <Link href="https://github.com/stephendewyer/dynamicfooter" passHref={true} aria-label="link to dynamic footer on GitHub">
                 <a target="_blank" rel="noopener noreferrer">
                   <ExternalLinkButton>
                     <div>
