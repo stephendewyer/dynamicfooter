@@ -52,17 +52,22 @@ export default function Index() {
               <h2 className={styles.heading_02} >
                 code:
               </h2>
-              <Link href="https://github.com/stephendewyer/dynamicfooter" passHref={true} aria-label="link to dynamic footer on GitHub">
-                <a target="_blank" rel="noopener noreferrer">
-                  <ExternalLinkButton>
-                    <div>
-                      GitHub
-                    </div> 
-                    <div className={styles.external_link_icon} >
-                      <Image src={ExternalLinkIcon} layout="responsive" alt="external link icon"/>
-                    </div>
-                  </ExternalLinkButton>
-                </a>
+              <Link
+                href="https://github.com/stephendewyer/dynamicfooter"
+                passHref={true}
+                aria-label="link to dynamic footer on GitHub"
+                target="_blank"
+                rel="noopener noreferrer">
+
+                <ExternalLinkButton>
+                  <div>
+                    GitHub
+                  </div> 
+                  <div className={styles.external_link_icon} >
+                    <Image src={ExternalLinkIcon} layout="responsive" alt="external link icon"/>
+                  </div>
+                </ExternalLinkButton>
+
               </Link>
             </div>
           </div>
@@ -71,7 +76,5 @@ export default function Index() {
         </h2>
       </div>
     </Fragment>
-    
-      
-  )
+  );
 }
