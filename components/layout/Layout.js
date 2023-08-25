@@ -28,7 +28,7 @@ const Layout = (props) => {
 
         }
 
-    });
+    }, [footerHeight]);
 
     // update the height when window resizes
 
